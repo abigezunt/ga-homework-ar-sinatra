@@ -389,10 +389,10 @@
 	"file_history":
 	[
 		"/Users/abby/Code/ga-homework-ar-sinatra/main.rb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/views/index.erb",
 		"/Users/abby/Code/ga-homework-ar-sinatra/views/comment_edit.erb",
 		"/Users/abby/Code/ga-homework-ar-sinatra/views/post_show.erb",
 		"/Users/abby/Code/ga-homework-ar-sinatra/db/migrate/20131011153649_create_column_newslink_id.rb",
-		"/Users/abby/Code/ga-homework-ar-sinatra/views/index.erb",
 		"/Users/abby/Code/ga-homework-ar-sinatra/views/post_edit.erb",
 		"/Users/abby/Code/ga-homework-ar-sinatra/views/layout.erb",
 		"/Users/abby/Code/ga-homework-ar-sinatra/db/migrate/20131011135307_add_flagged_column_to_newslinks.rb",

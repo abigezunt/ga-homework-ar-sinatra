@@ -1,4 +1,6 @@
+<div class= "body">
 <div><h2><%=@newslink.title%></h2></div>
+<div><p><%=@newslink.body %></p></div></div>
 
 <% @newslink.comments.each do |comment| %>
 <div><p><%= comment.body %></p></div>
