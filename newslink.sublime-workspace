@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"post",
+				"post_show"
+			],
+			[
+				"up",
+				"up_votes"
+			],
+			[
 				"mar",
 				"margin-top"
 			],
@@ -323,14 +331,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1730,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -388,6 +388,15 @@
 	},
 	"file_history":
 	[
+		"/Users/abby/Code/ga-homework-ar-sinatra/main.rb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/views/comment_edit.erb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/views/post_show.erb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/db/migrate/20131011153649_create_column_newslink_id.rb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/views/index.erb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/views/post_edit.erb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/views/layout.erb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/db/migrate/20131011135307_add_flagged_column_to_newslinks.rb",
+		"/Users/abby/Code/ga-homework-ar-sinatra/db/migrate/20131011134839_create_comment_table.rb",
 		"/Users/abby/Code/sinatra-ar-blog/Gemfile",
 		"/Users/abby/Code/sinatra-ar-blog/Rakefile",
 		"/Users/abby/Code/sinatra-ar-blog/main.rb",
@@ -506,20 +515,11 @@
 		"/Users/abby/Code/madlibs/lib/The_jazz_Song_of_J_Ryan_Prufrock.md",
 		"/Users/abby/Code/Iterators/times.rb",
 		"/Users/abby/Code/ga-w1-thursday-quiz/quiz.rb",
-		"/Users/abby/Code/madlibs/lib/finished_madlibs.md",
-		"/Users/abby/Code/madlibs/lib/madlibs.rb",
-		"/Users/abby/Code/madlibs/lib/testing.rb",
-		"/Users/abby/Code/madlibs/lib/content_words_hash.rb",
-		"/Users/abby/Code/ga-mtba-array-hash-homework/README.md",
-		"/Users/abby/Code/ga-mtba-array-hash-homework/mbta.rb",
-		"/Users/abby/Code/ga-mtba-array-hash-homework/mbta2.rb",
-		"/Users/abby/Code/WDI_BOS_1/class_notes/week_01/ruby_basics.md",
-		"/Users/abby/Code/WDI_BOS_1/class_notes/week_01/methods_arrays_hashes.md",
-		"/Users/abby/Code/madlibs/test/madlibs_test.rb"
+		"/Users/abby/Code/madlibs/lib/finished_madlibs.md"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -533,6 +533,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@newslink",
+			"newslinks",
+			"updated",
 			"center",
 			"\"",
 			"=",
@@ -648,42 +651,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1730,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -715,7 +690,7 @@
 	"project": "newslink.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -753,7 +728,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 77.0,
+	"side_bar_width": 171.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

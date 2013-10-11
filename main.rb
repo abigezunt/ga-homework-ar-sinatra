@@ -93,7 +93,9 @@ end
 
 post '/newslink/:newslink_id/:comment_id/update-comment' do
   comment = Comment.find(params[:comment_id])
-  comment.update(author: params[:author], body: params[:body])
+  comment.author = params[:author]
+  comment.body = params[:body]
+  comment.save
   redirect "/newslink/#{params[:newslink_id]}"
 end
 
